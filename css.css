@@ -1,0 +1,83 @@
+header {
+    background-color: #9619B2;
+    text-align: center;
+    color: white;
+}
+
+body {
+    color: rgb(216, 191, 216);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #fff !important;
+}
+a:hover {
+    color: rgb(104, 103, 103) !important;
+}
+
+#relative {
+    z-index: 10;
+    width: 70%;    
+    background-color: #fff;
+    color: #C55FFC;
+    padding: 10px;
+    border-radius: 10px;
+    animation: textApear 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    margin: -120px auto 40px auto;
+    opacity: 0.7
+}
+@keyframes textApear {
+    from {opacity: 0; margin: -100px auto 40px auto;}
+    to {opacity: 0.7; margin: -120px auto 40px auto;}
+}
+
+#imgHead {
+    width: 55%;
+    margin: 40px 0 40px 0;
+    border-radius: 250px;
+    animation: imgHeadOpacity 5s;
+}
+@keyframes imgHeadOpacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#tamy {
+    margin: 20px 20px 20px 20px;
+    height: 50%;
+    width: 90%;
+    
+}
+
+#fotoFin {
+    margin: 20px 0 20px 0;
+    width: 35%;
+}
+
+#propuesta {
+}
+
+#lorem   {
+}
+
+#center {
+    background-color: #C55FFC !important;
+    width: 96%;
+    justify-items: center;
+    margin: 40px auto 20px auto;
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #381333 ;
+}
+
+#futer {
+    padding: 0 20px 0 20px;
+}
+
+.navbar {
+    background-color: #381333 !important;
+}
