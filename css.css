@@ -58,9 +58,12 @@ a:hover {
 }
 
 #propuesta {
+     margin-top: 30px;
 }
 
-#lorem   {
+#lorem {
+    margin-top: 40px;
+    margin-bottom: 30px
 }
 
 #center {
@@ -76,6 +79,10 @@ a:hover {
 
 #futer {
     padding: 0 20px 0 20px;
+}
+
+#imgCarousel {
+    margin: 60px auto 40px auto;
 }
 
 .navbar {
