@@ -3,14 +3,13 @@ header {
     text-align: center;
     color: white;
 }
-
 body {
     color: rgb(216, 191, 216);
     scroll-behavior: smooth;
 }
-
 a {
     color: #fff !important;
+    text-decoration: none;
 }
 a:hover {
     color: rgb(104, 103, 103) !important;
@@ -18,7 +17,7 @@ a:hover {
 
 #relative {
     z-index: 10;
-    width: 70%;    
+    width: 70%;
     background-color: #fff;
     color: #C55FFC;
     padding: 10px;
@@ -26,7 +25,7 @@ a:hover {
     animation: textApear 1s;
     animation-delay: 0s;
     animation-iteration-count: 1;
-    margin: -120px auto 40px auto;
+    margin: -120px auto 10px auto;
     opacity: 0.7
 }
 @keyframes textApear {
@@ -35,8 +34,8 @@ a:hover {
 }
 
 #imgHead {
-    width: 55%;
-    margin: 40px 0 40px 0;
+    width: 65%;
+    margin: 30px 0 40px 0;
     border-radius: 250px;
     animation: imgHeadOpacity 5s;
 }
@@ -49,23 +48,20 @@ a:hover {
     margin: 20px 20px 20px 20px;
     height: 50%;
     width: 90%;
-    
+
 }
 
 #fotoFin {
     margin: 20px 0 20px 0;
     width: 35%;
 }
-
 #propuesta {
      margin-top: 30px;
 }
-
 #lorem {
     margin-top: 40px;
     margin-bottom: 30px
 }
-
 #center {
     background-color: #C55FFC !important;
     width: 96%;
@@ -76,15 +72,39 @@ a:hover {
     border-radius: 20px;
     box-shadow: 2px 2px 5px #381333 ;
 }
-
 #futer {
     padding: 0 20px 0 20px;
 }
-
 #imgCarousel {
     margin: 60px auto 40px auto;
+    width: 50%;
 }
 
 .navbar {
     background-color: #381333 !important;
+}
+.bi {
+    margin: 10px;
+}
+
+@media (max-width: 1000px) {
+    #imgHead {
+        width: 100%;
+        margin: 0 0 0 0;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    #relative {
+        font-size: 17px;
+        font-weight: bold;
+        margin: -60px auto 0 auto;
+        width: 100%;
+    }
+    #imgCarousel {
+        margin: 60px auto 40px auto;
+        width: 80%;
+    }
+    #futer {
+        font-size: 15px;
+    }
 }
